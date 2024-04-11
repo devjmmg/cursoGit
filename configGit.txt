@@ -20,13 +20,15 @@ git config --global init.defaultBranch nuevaRama
 
 
 
-//Estado en el que se encuentra nuestro archivo (U,A,)
+//Estado en el que se encuentra nuestro archivo (U,A,M)
 git status
 
 
 
 //Agregar el archivo a la fase de preparación (U)
 git add nombreArchivo.extensión
+o
+git add . //Indicas con el punto que todos los archivos se van agregar a la preparación
 
 
 
@@ -36,3 +38,36 @@ git rm --cached nombreArchivo.extensión
 
 
 //Crear un commit
+git commit -m "Parte 1 de la configuración de Git"
+//-m "Comentario" Es el comentario que le asignamos al commit de lo que se hizo o cambio
+
+
+
+//Historial de commits realizados
+git log
+
+
+
+//Editor de texto para los commits
+
+//Visual Studio Code
+git config --global core.editor "code --wait"
+
+//Sublime Text
+git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
+
+//Notepad++
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+//Documentación de GitDocs
+
+
+
+//Modificar commit
+git commit --amend
+//Se recomienda solo haceelo en repositorio local
+
+
+
+//Deshacer el ultimo commit añadido
+git reset --soft HEAD~1
