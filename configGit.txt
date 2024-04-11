@@ -1,0 +1,38 @@
+Configurar nombre de usuario y correo electronico:
+
+//Nombre de usuario
+git config --global user.name "nombre-usuario"
+
+//Correo electrónico
+git config --global user.email "correo@gmail.com"
+//--global significa para todos los repositorios
+
+
+
+//Inicializar repositorio
+git init
+
+
+
+//Cambiar el nombre de la rama inicial por defecto (Branch)
+git config --global init.defaultBranch nuevaRama
+//nuevaRama ahora es la rama inicial por defecto
+
+
+
+//Estado en el que se encuentra nuestro archivo (U,A,)
+git status
+
+
+
+//Agregar el archivo a la fase de preparación (U)
+git add nombreArchivo.extensión
+
+
+
+//Quitarlo del área de preparación
+git rm --cached nombreArchivo.extensión
+
+
+
+//Crear un commit
