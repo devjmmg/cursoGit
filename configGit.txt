@@ -71,3 +71,12 @@ git commit --amend
 
 //Deshacer el ultimo commit añadido
 git reset --soft HEAD~1
+
+
+
+//Crear un commit en una rama
+git checkout nombre-rama-a-commitear
+
+//Modificar el archivo
+git add .
+git commit -m "Comentario"
