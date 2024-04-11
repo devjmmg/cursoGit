@@ -70,4 +70,37 @@ git commit --amend
 
 
 //Deshacer el ultimo commit añadido
-git reset --soft HEAD~1
+git reset --soft HEAD~1 (--soft o --hard)
+
+
+
+//Crear rama (Se escribe en minusculas y conectadas con un -)
+git branch rama-dos (hara la copia dependiendo de la rama en la que nos escontremos)
+
+
+
+//Ver todas las ramas
+git branch
+
+
+
+//Como cambiar de rama
+git checkout rama-dos
+
+
+
+//Como crear una nueva rama y posicionarse en la nueva rama
+git checkout -b rama-tres
+
+
+
+//Como cambiar el nombre de una rama
+git checkout rama-a-cambiar
+git branch -m nuevo-nombre
+o
+git branch -m nombre-rama nuevo-nombre-rama
+
+
+
+//Eliminar una rama (locales unicamente)
+git branch -d nombre-rama-a-eliminar
