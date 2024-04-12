@@ -104,3 +104,13 @@ git branch -m nombre-rama nuevo-nombre-rama
 
 //Eliminar una rama (locales unicamente)
 git branch -d nombre-rama-a-eliminar
+
+
+
+//Ver los commits en una linea
+git log --oneline
+
+
+
+//Ver los commits y la diferencia de lo que se hizo 
+git log -p
