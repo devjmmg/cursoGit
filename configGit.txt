@@ -73,6 +73,13 @@ git commit --amend
 git reset --soft HEAD~1 (--soft o --hard)
 
 
+//Crear un commit en una rama
+git checkout nombre-rama-a-commitear
+
+//Modificar el archivo
+git add .
+git commit -m "Comentario"
+
 
 //Crear rama (Se escribe en minusculas y conectadas con un -)
 git branch rama-dos (hara la copia dependiendo de la rama en la que nos escontremos)
