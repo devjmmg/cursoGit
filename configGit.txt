@@ -15,7 +15,7 @@ git init
 
 
 //Cambiar el nombre de la rama inicial por defecto (Branch)
-git config --global init.defaultBranch nuevaRama
+git config --global init.defaultBranch renombrarRama
 //nuevaRama ahora es la rama inicial por defecto
 
 
@@ -121,3 +121,10 @@ git log --oneline
 
 //Ver los commits y la diferencia de lo que se hizo 
 git log -p
+
+
+
+//Fusionar ramas (Posicionarse quien va a recibir los cambios)
+git merge
+
+//END
