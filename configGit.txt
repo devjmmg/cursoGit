@@ -127,4 +127,9 @@ git log -p
 //Fusionar ramas (Posicionarse quien va a recibir los cambios)
 git merge
 
-//END
+
+
+//Mandar repositorio local a GitHub
+//1.- Crear repositorio en GitHub
+//2.- git remote add origin "URL del repositorio"
+//3.- git remote o git remote -v para verificar que este enlazado al repositorio
